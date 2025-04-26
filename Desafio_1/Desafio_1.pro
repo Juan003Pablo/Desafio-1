@@ -1,7 +1,12 @@
-TEMPLATE = app
-CONFIG += console c++17
+QT += core gui
+CONFIG += console
 CONFIG -= app_bundle
-CONFIG -= qt
+
 
 SOURCES += \
+        Funciones_auxiliares.cpp \
+        XOR.cpp \
         main.cpp
+
+HEADERS += \
+    Header.h
